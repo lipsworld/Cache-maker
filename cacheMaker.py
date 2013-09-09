@@ -1,7 +1,7 @@
 import mechanize
 from BeautifulSoup import BeautifulSoup
 
-sitemapUrl="http://www.raspberryweather.com/sitemap.xml"
+sitemapUrl="http://www.raspberryweather.com/sitemap.xml" # REPLACE WITH YOUR OWN SITEMAP
 parsedUrl=[] #contains urls from sitemap
 
 browser=mechanize.Browser()
