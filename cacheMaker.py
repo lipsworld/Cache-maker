@@ -6,6 +6,7 @@ parsedUrl=[] #contains urls from sitemap
 
 browser=mechanize.Browser()
 try:
+        print "Getting the sitemap"
         response=browser.open(sitemapUrl)
 except:
         print "Something went wrong"
